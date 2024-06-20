@@ -45,7 +45,8 @@ section#redes-sociais {
 }
 
 section#redes-sociais img {
-  width: 50px;
+  width: 40px;
+  height: 40px;
   margin: 6px;
   border-radius: 50%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.637);
@@ -57,4 +58,25 @@ section#redes-sociais img:hover {
   transform: translate(-2px, -2px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.801);
   transition: 0.2s, border 0.2s;
+}
+
+@media (min-width: 600px) {
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #telefone {
+    margin: 20px;
+  }
+
+  section#redes-sociais {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+  }
 }
