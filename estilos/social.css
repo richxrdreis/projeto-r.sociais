@@ -17,7 +17,7 @@ img {
 
 a {
   display: block;
-  background-color: rgba(0, 100, 0, 0.637);
+  background-color: rgba(0, 104, 0, 0.637);
   padding: 20px;
   text-align: center;
   font-weight: bolder;
@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-  background-color: rgba(0, 128, 0, 0.747);
+  background-color: rgba(22, 158, 22, 0.747);
   transition: 0.4s;
   font-size: 18px;
 }
